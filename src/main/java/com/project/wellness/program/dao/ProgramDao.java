@@ -16,9 +16,9 @@ public class ProgramDao {
 
 	public ProgramDao() {}
 
-	public List<ProgramVO> selectProgramAll() throws Exception {
+	public List<ProgramVO> selectProgram() throws Exception {
 
-		List<ProgramVO> list = sqlSession.selectList("Program.selectProgramAll");
+		List<ProgramVO> list = sqlSession.selectList("Program.selectProgram");
 		return list;
 	}
 }
