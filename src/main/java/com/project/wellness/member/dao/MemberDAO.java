@@ -14,8 +14,7 @@ public class MemberDAO {
 	// 회원가입
 
 	public int join(MemberVO vo) throws Exception {
-		int cnt = sql.insert("memberMapper.join", vo);
+		int cnt = sql.insert("Member.join", vo);
 		return cnt;
-	
 	}
 }
