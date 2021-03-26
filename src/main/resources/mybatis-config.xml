@@ -14,5 +14,6 @@
    <!-- 사용하고자 하는 mapper를 등록한다. -->
    <mappers>
       <mapper resource="mapper/program-mapper.xml" />
+      
    </mappers>
 </configuration>
