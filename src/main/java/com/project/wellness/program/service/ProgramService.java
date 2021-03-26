@@ -6,5 +6,5 @@ import com.project.wellness.program.vo.ProgramVO;
 
 public interface ProgramService {
 
-	public List<ProgramVO> selectProgramAll() throws Exception;
+	public List<ProgramVO> selectProgram() throws Exception;
 }

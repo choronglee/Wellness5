@@ -12,12 +12,12 @@ import com.project.wellness.program.vo.ProgramVO;
 public class ProgramServiceImp implements ProgramService {
 
 	   @Autowired
-	   ProgramDao memberDao;
+	   ProgramDao programDao;
 	   
-	   
-	   public List<ProgramVO> selectProgramAll() throws Exception{
-	      List<ProgramVO> list = memberDao.selectProgramAll();
+	   @Override
+	   public List<ProgramVO> selectProgram() throws Exception {
+		   
+	      List<ProgramVO> list = programDao.selectProgram();
 	      return list;
 	   }
-
 }
