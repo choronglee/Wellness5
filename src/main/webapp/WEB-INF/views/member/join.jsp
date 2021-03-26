@@ -120,7 +120,7 @@
      }
 	</script>
 	<body>
-	<form action="/views/login" method="post">
+	<form action="join.do" method="post">
 	<h3>회원가입</h3>
 		<div class="jumbotron" style="width:500px; margin-top:30px; margin-left: 430px; border-radius: 30px; border: 2.5px dotted;">
 				<div class="form">
