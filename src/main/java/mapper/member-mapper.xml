@@ -25,9 +25,9 @@
 	                 		   , #{phone}
 	                 		   , #{email}
 	                 		   , #{userBirth}
-	                 		   , #{isAdmin}
-	                 		   , #{isCoach}
-	                 		   , #{joinDate} )
+	                 		   , 0
+	                 		   , 0
+	                 		   , SYSDATE )
     </insert>
    
 </mapper>
